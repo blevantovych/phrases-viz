@@ -744,4 +744,19 @@ body {
   .detail-charts-row { flex-direction: column; }
   .main-content { padding: 20px; }
   .search-input.large { width: 100%; }
+  .top-phrases-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    gap: 4px;
+    padding: 8px 12px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .nav-brand { width: 100%; }
+  .nav-title { display: none; }
+  .nav-links { gap: 2px; flex-wrap: wrap; }
+  .nav-links a { padding: 5px 10px; font-size: 13px; }
+  .main-content { padding: 16px 12px; }
 }
