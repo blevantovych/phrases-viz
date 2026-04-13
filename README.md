@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# phrases-viz
+
+**Live app:** https://blevantovych.github.io/phrases-viz/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
